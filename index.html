@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <title>RON fans</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="item"><img src="./img/RONF_logo.png" alt="logo" width="280" height="60"></div>
+        <nav class="item">
+            <a target="_blank" href="https://discord.gg/D2DSthMVme" class="link--block">discord fans</a>
+            <a target="_blank" href="https://discord.com/invite/readyornot" class="link--block">discord official</a>
+            <a target="_blank" href="https://voidinteractive.net/" class="link--block">Official page</a>
+            <a target="_blank" href="https://store.steampowered.com/app/1144200/Ready_or_Not/" class="link--block">Steam
+                page</a>
+        </nav>
+    </header>
+    <section class="attention-mes">
+        Currently, the mobile version is not supported. Please use a desktop device.
+    </section>
+
+    <main class="main">
+        <div class="maps-cnt">
+            <div class="search-cnt">
+                <input type="text" class="search-input" id="search-map" placeholder="map search">
+            </div>
+            <div class="maps" id="maps">
+            </div>
+        </div>
+
+        
+        <canvas class="canvas" width="678" height="678" id="canvas"></canvas>
+
+
+        <div class="setting-cnt">
+            <h1 id="mapName">map</h1>
+            <div class="locations" id="locations">
+            </div>
+            <div class="keyBoard">
+                <h1>keyboard</h1>
+                <div class="keyBoard-cnt">
+                    <div class="key"><span style="color: #2e3eff;">SWAT 1</span>
+                        <div class="keyCode"><span>-</span><span>1</span></div>
+                    </div>
+                    <div class="key"><span style="color: #759fff;">SWAT 2</span>
+                        <div class="keyCode"><span>-</span><span>2</span></div>
+                    </div>
+                    <div class="key"><span style="color: #2ed8ff;">SWAT 3</span>
+                        <div class="keyCode"><span>-</span><span>3</span></div>
+                    </div>
+                    <div class="key"><span style="color: #2e8bff;">SWAT 4</span>
+                        <div class="keyCode"><span>-</span><span>4</span></div>
+                    </div>
+                    <div class="key"><span style="color: #977dff;">SWAT 5</span>
+                        <div class="keyCode"><span>-</span><span>5</span></div>
+                    </div>
+                    <div class="key"><span style="color: #fda458;">Interaction</span>
+                        <div class="keyCode"><span>-</span><span>6</span></div>
+                    </div>
+                    <div class="key"><span style="color: #ff2e2e;">Suspect</span>
+                        <div class="keyCode"><span>-</span><span>7</span></div>
+                    </div>
+                    <div class="key"><span style="color: #54ff49;">Civilian</span>
+                        <div class="keyCode"><span>-</span><span>8</span></div>
+                    </div>
+                    <div class="key"><span style="color: #7c7c7c;">Other</span>
+                        <div class="keyCode"><span>-</span><span>9</span></div>
+                    </div>
+                    <div class="key"><span style="color: #ffffff;">Rubber</span>
+                        <div class="keyCode"><span>-</span><span>0</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="clear">Clear</button>
+            </div>
+            <canvas id="cursorGenerator"></canvas>
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
