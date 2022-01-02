@@ -126,6 +126,20 @@ const
                     arr: []
                 }
             }
+        },
+        'Food Wall': {
+            version: version,
+            link: 'https://swat-4.fandom.com/wiki/Food_Wall_Restaurant',
+            data: {
+                '1F': {
+                    image: 'FoodWall/fw1f.png',
+                    arr: []
+                },
+                '2F': {
+                    image: 'FoodWall/fw2f.png',
+                    arr: []
+                }
+            }
         }
     },
     canvas = $('#canvas');
