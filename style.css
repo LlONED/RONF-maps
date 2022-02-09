@@ -120,6 +120,7 @@ body {
 }
 
 .map {
+    margin-bottom: 20px;
     cursor: pointer;
     padding: 20px;
     width: 80%;
@@ -137,10 +138,6 @@ body {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-}
-
-.map:not(:first-child) {
-    margin-top: 20px;
 }
 
 .map:hover:not(.active) {
