@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: ron_font;
+    src: url(font.ttf);
+  }
+
+  html,
+  body,
+  #app {
+    @apply w-full h-full;
+  }
+
+  body {
+    @apply scrollbar bg-zinc-800 text-white select-none;
+    font-family: ron_font;
+  }
+
+  #app {
+    @apply flex flex-col items-center;
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    @apply w-1;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    @apply rounded bg-zinc-600;
+  }
+
+  .scrollbar::-webkit-scrollbar-corner {
+    @apply opacity-0;
+  }
+
+  .cnt {
+    @apply w-[88%];
+  }
+
+  .system-button {
+    @apply bg-rr-100 hover:bg-rr-50 px-4 py-3.5 rounded;
+  }
+}
