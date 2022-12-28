@@ -1,6 +1,6 @@
 <template>
   <header class="bg-black lg:h-[80px] w-full flex justify-center items-center">
-    <div class="cnt flex justify-between flex-wrap gap-3 p-2">
+    <div class="cnt flex justify-between flex-wrap gap-3 py-2">
       <div
         class="header__item flex-grow-[3] flex justify-center lg:justify-start items-center"
       >
