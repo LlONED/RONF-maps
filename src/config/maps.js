@@ -107,4 +107,15 @@ export const maps = {
       link: "https://steamcommunity.com/sharedfiles/filedetails/?id=2690490337",
     },
   },
+  "Mindjot (by LLazy_DK)": {
+    "All Floors": {
+      path: "Mindjot_by_LLazy_DK/all_floors.png",
+    },
+    "1 floor": {
+      path: "Mindjot_by_LLazy_DK/1_floor.png",
+    },
+    "Ground floor": {
+      path: "Mindjot_by_LLazy_DK/ground_floor.png",
+    },
+  },
 };

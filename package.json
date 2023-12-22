@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "git push -u origin master && cd ./dist && git init && git branch -M gh-pages && git add . && git commit -m \"deploy\" && git remote add origin git@github.com:LlONED/RONF-maps.git && git push -uf origin gh-pages",
+    "deploy": "npm run build && cd ./dist && git init && git branch -M gh-pages && git add . && git commit -m \"deploy\" && git remote add origin git@github.com:LlONED/RONF-maps.git && git push -uf origin gh-pages",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
