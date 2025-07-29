@@ -1,11 +1,11 @@
 <template>
-  <section class="flex flex-col items-center justify-center gap-10 p-2">
+  <section class="flex flex-col items-center justify-center gap-10 p-8">
     <a
-      class="underline text-4xl font-bold"
+      class="underline text-4xl font-bold text-center"
       target="_blank"
       :href="maps[currentMap][currentImage].link"
+      v-html="currentMap"
     >
-      {{ currentMap }}
     </a>
 
     <SelectImage

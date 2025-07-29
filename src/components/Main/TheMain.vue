@@ -1,8 +1,8 @@
 <template>
-  <main class="cnt h-full flex justify-between items-center gap-6 flex-wrap">
-    <TheMaps class="section flex-grow-[1]" />
-    <TheDrawingArea class="section flex-grow-[2]" />
-    <TheSettings class="section flex-grow-[1]" :colors="colors" />
+  <main class="cnt h-full flex flex-col xl:flex-row xl:justify-between xl:items-center gap-6">
+    <TheMaps class="section h-[400px] xl:h-[700px] flex-grow-[1]" />
+    <TheDrawingArea class="section h-[700px] min-h-[700px] flex-grow-[2]" />
+    <TheSettings class="section h-[700px] flex-grow-[1]" :colors="colors" />
   </main>
 </template>
 
@@ -21,7 +21,7 @@
 
 <style scoped>
   .section {
-    flex-basis: 200px;
-    @apply h-[700px] bg-zinc-900 rounded;
+    flex-basis: 280px;
+    @apply bg-zinc-900 rounded;
   }
 </style>

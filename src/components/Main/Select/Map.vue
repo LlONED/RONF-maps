@@ -9,8 +9,7 @@
         @change="emits('select', $event.target.value)"
       />
 
-      <div class="system-button peer-checked:bg-rr-40">
-        {{ mapName }}
+      <div class="system-button peer-checked:bg-rr-40" v-html="mapName">
       </div>
     </label>
   </div>

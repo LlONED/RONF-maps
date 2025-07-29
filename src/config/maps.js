@@ -1,4 +1,23 @@
 export const maps = {
+  "Mindjot (by LLazy_DK)": {
+    "All Floors": {
+      path: "Mindjot_by_LLazy_DK/all_floors.png",
+    },
+    "1 floor": {
+      path: "Mindjot_by_LLazy_DK/1_floor.png",
+    },
+    "Ground floor": {
+      path: "Mindjot_by_LLazy_DK/ground_floor.png",
+    },
+  },
+  "Watts Community College (by&nbsp;Raye)": {
+    "Ground Floor": {
+      path: "WattsCommunityCollege_by_Raye/Elephant_Floor_Plan_Ground_Floor.webp",
+    },
+    "1st Floor": {
+      path: "WattsCommunityCollege_by_Raye/Elephant_Floor_Plan_1st_Floor.webp",
+    },
+  },
   "Wenderly Hills Hotel v. 1": {
     "1st Floor": {
       path: "Hotel/h1.png",
@@ -106,16 +125,5 @@ export const maps = {
       path: "NeonClub/g.png",
       link: "https://steamcommunity.com/sharedfiles/filedetails/?id=2690490337",
     },
-  },
-  "Mindjot (by LLazy_DK)": {
-    "All Floors": {
-      path: "Mindjot_by_LLazy_DK/all_floors.png",
-    },
-    "1 floor": {
-      path: "Mindjot_by_LLazy_DK/1_floor.png",
-    },
-    "Ground floor": {
-      path: "Mindjot_by_LLazy_DK/ground_floor.png",
-    },
-  },
+  }
 };
